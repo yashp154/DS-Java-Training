@@ -1,6 +1,0 @@
-// Write a program to print a name
-class PrintMyName{
-    public static void main(String[] args) {
-        System.out.println("Yash Pandey");
-    }
-}
