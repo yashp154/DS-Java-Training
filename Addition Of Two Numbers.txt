@@ -1,9 +1,0 @@
-// Write a program to add two numbers
-class AdditionOfTwoNumber{
-    public static void main(String[] args) {
-        int a = 8;
-        float b = 7.5f;
-        
-        System.out.println("Sum :"+(a+b));
-    }
-}
