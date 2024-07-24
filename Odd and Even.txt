@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+      Scanner scanner=new Scanner(System.in);
+      System.out.println("Enter a number :");
+      int n=scanner.nextInt();
+      String result;
+      result=(n%2==0)?"It is a even number":"It is a odd number";
+      System.out.println(result);
+    }
+}
