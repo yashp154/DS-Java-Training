@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        int  sum=0;
+        int j = 10;
+        while (j >= 1) {
+            System.out.println(j);
+            sum=sum+j;
+            j--;
+        }
+        System.out.println(sum);
+    }
+}
