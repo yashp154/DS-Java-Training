@@ -1,0 +1,19 @@
+// Write a program to check the voting eligibility by age.
+// We have to use Scanner Class and Ternery operator.
+import java.util.Scanner;
+class VotingEligibility
+{
+    public static void main(String[] args)
+    {
+        Scanner scanner=new Scanner(System.in);
+        // to access the methods from Scanner using object
+        System.out.println("Enter your name :");
+        String name = scanner.nextLine();
+        System.out.println("Enter your age :");
+        int age= scanner.nextInt();
+        String result;
+        result=(age>=18)?"you are eligible to vote":"you are not eligible to vote";
+        System.out.println(name+" "+result+" because your age is "+age);
+
+    }
+}
